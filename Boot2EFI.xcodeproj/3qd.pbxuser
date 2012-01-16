@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 517}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{38, 61}, {1408, 791}}";
+		};
+	};
+	1301547E13075B1400629309 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* Boot2EFIAppDelegate.m */;
+		name = "Boot2EFIAppDelegate.m: 18";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	13027553130AED05009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E5EF12E273C400E2E0AC /* EFIInstaller.m */;
+		name = "EFIInstaller.m: 226";
+		rLen = 0;
+		rLoc = 6944;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 6279;
+	};
+	13027554130AED05009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E4EC12E26C5D00E2E0AC /* EFIDiskUtil.h */;
+		name = "EFIDiskUtil.h: 11";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 347;
+		vrLoc = 0;
+	};
+	13027571130AF0C2009C4AD3 /* EFIViewController.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = Boot2EFI;
+		modificationTime = 319484111.784691;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	13027579130AF516009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E4ED12E26C5D00E2E0AC /* EFIDiskUtil.m */;
+		name = "EFIDiskUtil.m: 36";
+		rLen = 0;
+		rLoc = 679;
+		rType = 0;
+		vrLen = 1197;
+		vrLoc = 675;
+	};
+	1302757A130AF516009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1313022E12E3C8D900200419 /* DeviceInformation.h */;
+		name = "DeviceInformation.h: 23";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 651;
+		vrLoc = 0;
+	};
+	13027593130AF788009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */;
+		name = "EFIViewController.m: 31";
+		rLen = 0;
+		rLoc = 1093;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 367;
+	};
+	13027594130AF788009C4AD3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	1313022E12E3C8D900200419 /* DeviceInformation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 494}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{0, 651}";
+		};
+	};
+	1313022F12E3C8D900200419 /* DeviceInformation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 388}}";
+			sepNavSelRange = "{298, 0}";
+			sepNavVisRange = "{0, 307}";
+		};
+	};
+	131D5FF412F18573009CE8F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1399BFAC12E7EC140056A744 /* mb.sh */;
+		name = "mb.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	132464C212E5E899005C2CE2 /* EFIDSDTView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = EFIDSDTView.m;
+		path = /Volumes/Data/Documents/ProgrammingProjects/Xcode/Boot2EFI/EFIDSDTView.m;
+		sourceTree = "<absolute>";
+	};
+	1328E49212E260F200E2E0AC /* Boot2EFI */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Boot2EFI;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1328E4A312E260F900E2E0AC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1328E4A412E260F900E2E0AC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1328E4E512E26BFE00E2E0AC /* DeviceInfo.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DeviceInfo.h;
+		path = /Volumes/Data/Documents/ProgrammingProjects/Xcode/Boot2EFI/DeviceInfo.h;
+		sourceTree = "<absolute>";
+	};
+	1328E4EC12E26C5D00E2E0AC /* EFIDiskUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 517}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 347}";
+		};
+	};
+	1328E4ED12E26C5D00E2E0AC /* EFIDiskUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 2119}}";
+			sepNavSelRange = "{679, 0}";
+			sepNavVisRange = "{675, 1197}";
+		};
+	};
+	1328E5EE12E273C400E2E0AC /* EFIInstaller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 529}}";
+			sepNavSelRange = "{394, 0}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	1328E5EF12E273C400E2E0AC /* EFIInstaller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 3458}}";
+			sepNavSelRange = "{6944, 0}";
+			sepNavVisRange = "{6279, 1282}";
+			sepNavWindowFrame = "{{429, 108}, {922, 712}}";
+		};
+	};
+	1328E70412E27D2300E2E0AC /* RunAsAdmin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 345}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 541}";
+		};
+	};
+	1328E70512E27D2300E2E0AC /* RunAsAdmin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1173, 1859}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 970}";
+			sepNavWindowFrame = "{{38, 140}, {922, 712}}";
+		};
+	};
+	1347949E13100AE3008181C3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Boot2EFI-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = "/Volumes/Data/Documents/ProgrammingProjects/Xcode/Boot2EFI/Boot2EFI-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1347949F13100AE3008181C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1366690112E3F177006ABBE2 /* EFIInstallInfo.h */;
+		name = "EFIInstallInfo.h: 35";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	134794A5131010BE008181C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1366690112E3F177006ABBE2 /* EFIInstallInfo.h */;
+		name = "EFIInstallInfo.h: 35";
+		rLen = 0;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	135291081306F69200E69BF5 /* EFIInstallMethodView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = EFIInstallMethodView.m;
+		path = /Volumes/Data/Documents/ProgrammingProjects/Xcode/Boot2EFI/EFIInstallMethodView.m;
+		sourceTree = "<absolute>";
+	};
+	135292A01307134800E69BF5 /* EFIInstallMethodView.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 135291081306F69200E69BF5 /* EFIInstallMethodView.m */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		modificationTime = 319485196.486714;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1352930113071A7D00E69BF5 /* EFIDropDSDTView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 523}}";
+			sepNavSelRange = "{261, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	1352930213071A7D00E69BF5 /* EFIDropDSDTView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 2327}}";
+			sepNavSelRange = "{4601, 0}";
+			sepNavVisRange = "{2662, 1620}";
+		};
+	};
+	1352930313071A7D00E69BF5 /* EFIDropKextsView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{195, 169}";
+			sepNavVisRange = "{0, 369}";
+		};
+	};
+	1352930413071A7D00E69BF5 /* EFIDropKextsView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 2418}}";
+			sepNavSelRange = "{192, 5167}";
+			sepNavVisRange = "{0, 1270}";
+		};
+	};
+	1352930A13071AB200E69BF5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E70412E27D2300E2E0AC /* RunAsAdmin.h */;
+		name = "RunAsAdmin.h: 9";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	1366690112E3F177006ABBE2 /* EFIInstallInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {505, 512}}";
+			sepNavSelRange = "{794, 0}";
+			sepNavVisRange = "{0, 799}";
+		};
+	};
+	1366690212E3F177006ABBE2 /* EFIInstallInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 500}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{0, 396}";
+			sepNavWindowFrame = "{{15, 161}, {922, 712}}";
+		};
+	};
+	1366691712E3F501006ABBE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E4E512E26BFE00E2E0AC /* DeviceInfo.h */;
+		name = "DeviceInfo.h: 8";
+		rLen = 113;
+		rLoc = 135;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 0;
+	};
+	136DB5BC12E806860060C3F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E70512E27D2300E2E0AC /* RunAsAdmin.m */;
+		name = "RunAsAdmin.m: 10";
+		rLen = 0;
+		rLoc = 163;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 0;
+	};
+	1370E21413074E0600CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B05413073C47005124B2 /* EFIInstallMethodViewController.h */;
+		name = "EFIInstallMethodViewController.h: 19";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 601;
+		vrLoc = 0;
+	};
+	1370E21513074E0600CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B05513073C47005124B2 /* EFIInstallMethodViewController.m */;
+		name = "EFIInstallMethodViewController.m: 15";
+		rLen = 0;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	1370E21E13074FCE00CDE77C /* EFIDropExtraView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{0, 372}";
+		};
+	};
+	1370E21F13074FCE00CDE77C /* EFIDropExtraView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1539, 2444}}";
+			sepNavSelRange = "{5234, 0}";
+			sepNavVisRange = "{4750, 494}";
+			sepNavWindowFrame = "{{15, 82}, {1408, 791}}";
+		};
+	};
+	1370E2261307525F00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1352930313071A7D00E69BF5 /* EFIDropKextsView.h */;
+		name = "EFIDropKextsView.h: 11";
+		rLen = 169;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 369;
+		vrLoc = 0;
+	};
+	1370E2271307525F00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1352930413071A7D00E69BF5 /* EFIDropKextsView.m */;
+		name = "EFIDropKextsView.m: 12";
+		rLen = 5167;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1270;
+		vrLoc = 0;
+	};
+	1370E22A1307525F00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1370E21E13074FCE00CDE77C /* EFIDropExtraView.h */;
+		name = "EFIDropExtraView.h: 22";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 0;
+	};
+	1370E2381307527C00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1370E21F13074FCE00CDE77C /* EFIDropExtraView.m */;
+		name = "EFIDropExtraView.m: 178";
+		rLen = 0;
+		rLoc = 5221;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 4241;
+	};
+	1370E26A1307548C00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B04D130739C1005124B2 /* EFIOptionalViewController.m */;
+		name = "EFIOptionalViewController.m: 17";
+		rLen = 51;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	1370E26B1307548C00CDE77C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B04C130739C1005124B2 /* EFIOptionalViewController.h */;
+		name = "EFIOptionalViewController.h: 18";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 0;
+	};
+	1370E27B130754E900CDE77C /* EFIViewController.m:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */;
+		functionName = "-methodSelected:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		location = Boot2EFI;
+		modificationTime = 319484111.005844;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1377AE3512F1EC7C00387C20 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
+	};
+	137BC71912E7180800101320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* Boot2EFI_Prefix.pch */;
+		name = "Boot2EFI_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 147;
+		vrLoc = 0;
+	};
+	137F7CB513075D6600CB6099 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* Boot2EFIAppDelegate.h */;
+		name = "Boot2EFIAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	137F7CB613075D6600CB6099 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1328E5EE12E273C400E2E0AC /* EFIInstaller.h */;
+		name = "EFIInstaller.h: 19";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	1391DDDE12ED59540050780A /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = /Volumes/Data/Documents/ProgrammingProjects/Xcode/Boot2EFI/build/Release/Boot2EFI.app/Contents/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+	};
+	1391DEA712ED5B530050780A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1391DDDE12ED59540050780A /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	1392C60412E7B14C00449E53 /* NSAlert.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSAlert.h;
+		path = /System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSAlert.h;
+		sourceTree = "<absolute>";
+	};
+	1395B04C130739C1005124B2 /* EFIOptionalViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{504, 0}";
+			sepNavVisRange = "{0, 510}";
+		};
+	};
+	1395B04D130739C1005124B2 /* EFIOptionalViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{311, 51}";
+			sepNavVisRange = "{0, 370}";
+		};
+	};
+	1395B05013073A32005124B2 /* EFIExtraViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 523}}";
+			sepNavSelRange = "{366, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	1395B05113073A32005124B2 /* EFIExtraViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 523}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 339}";
+		};
+	};
+	1395B05413073C47005124B2 /* EFIInstallMethodViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{0, 601}";
+		};
+	};
+	1395B05513073C47005124B2 /* EFIInstallMethodViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 540}}";
+			sepNavSelRange = "{321, 0}";
+			sepNavVisRange = "{0, 329}";
+		};
+	};
+	1399BFAC12E7EC140056A744 /* mb.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 406}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 180}";
+		};
+	};
+	13C312D212E7BABC0098D9FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1392C60412E7B14C00449E53 /* NSAlert.h */;
+		name = "NSAlert.h: 172";
+		rLen = 0;
+		rLoc = 8843;
+		rType = 0;
+		vrLen = 1778;
+		vrLoc = 7087;
+	};
+	13C70C1E12E3DCBD00B8E091 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1DDD58150DA1D0A300B32029 /* English */;
+		name = "MainMenu.xib: 4982";
+		rLen = 0;
+		rLoc = 216615;
+		rType = 0;
+		vrLen = 2160;
+		vrLoc = 186142;
+	};
+	13C7DEF313081D9E00D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 13D8EF8D12E32A9E00503CE0 /* EFIViewController.h */;
+		name = "EFIViewController.h: 33";
+		rLen = 0;
+		rLoc = 987;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	13C7DEF413081D9E00D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B05013073A32005124B2 /* EFIExtraViewController.h */;
+		name = "EFIExtraViewController.h: 15";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	13C7DEF513081D9E00D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1395B05113073A32005124B2 /* EFIExtraViewController.m */;
+		name = "EFIExtraViewController.m: 14";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	13C7DEF613081D9E00D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1352930113071A7D00E69BF5 /* EFIDropDSDTView.h */;
+		name = "EFIDropDSDTView.h: 14";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	13C7DEF713081D9E00D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1352930213071A7D00E69BF5 /* EFIDropDSDTView.m */;
+		name = "EFIDropDSDTView.m: 149";
+		rLen = 0;
+		rLoc = 4601;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 2662;
+	};
+	13C7DF1413081E6100D2CCCA /* EFIViewController.m:100 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */;
+		functionName = "-installPressed:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 100;
+		location = Boot2EFI;
+		modificationTime = 319484111.0196911;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	13C7DF2D13081F6100D2CCCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1366690212E3F177006ABBE2 /* EFIInstallInfo.m */;
+		name = "EFIInstallInfo.m: 24";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	13C7DF73130823A200D2CCCA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 13C5D4CE12EED11900882859 /* logo.icns */;
+	};
+	13D8EF8D12E32A9E00503CE0 /* EFIViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 523}}";
+			sepNavSelRange = "{987, 0}";
+			sepNavVisRange = "{0, 1109}";
+			sepNavWindowFrame = "{{38, 61}, {1408, 791}}";
+		};
+	};
+	13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {739, 1963}}";
+			sepNavSelRange = "{537, 0}";
+			sepNavVisRange = "{164, 987}";
+			sepNavWindowFrame = "{{15, 161}, {922, 712}}";
+		};
+	};
+	13ECF5EB12F9664300DE1F7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1313022F12E3C8D900200419 /* DeviceInformation.m */;
+		name = "DeviceInformation.m: 16";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 0;
+	};
+	13EE307512E63B6500AE2216 /* EFIDSDTView.m:103 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 132464C212E5E899005C2CE2 /* EFIDSDTView.m */;
+		functionName = "-performDragOperation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 103;
+		modificationTime = 319485196.486744;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	1DDD58150DA1D0A300B32029 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 65299}}";
+			sepNavSelRange = "{216615, 0}";
+			sepNavVisRange = "{186142, 2160}";
+			sepNavVisRect = "{{0, 0}, {1234, 564}}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* Boot2EFIAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 529}}";
+			sepNavSelRange = "{418, 0}";
+			sepNavVisRange = "{0, 458}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* Boot2EFIAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 512}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{0, 539}";
+			sepNavWindowFrame = "{{15, 82}, {1408, 791}}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* Boot2EFI_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1173, 463}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 147}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1328E49212E260F200E2E0AC /* Boot2EFI */;
+		activeTarget = 8D1107260486CEB800E47090 /* Boot2EFI */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Boot2EFI */,
+		);
+		breakpoints = (
+			13EE307512E63B6500AE2216 /* EFIDSDTView.m:103 */,
+			135292A01307134800E69BF5 /* EFIInstallMethodView.m:19 */,
+			1370E27B130754E900CDE77C /* EFIViewController.m:78 */,
+			13C7DF1413081E6100D2CCCA /* EFIViewController.m:100 */,
+			13027571130AF0C2009C4AD3 /* EFIViewController.m:19 */,
+		);
+		codeSenseManager = 1328E4A412E260F900E2E0AC /* Code sense */;
+		executables = (
+			1328E49212E260F200E2E0AC /* Boot2EFI */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					725,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					327,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					797,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319818445;
+			PBXWorkspaceStateSaveDate = 319818445;
+		};
+		perUserProjectItems = {
+			1301547E13075B1400629309 /* PBXTextBookmark */ = 1301547E13075B1400629309 /* PBXTextBookmark */;
+			13027553130AED05009C4AD3 /* PBXTextBookmark */ = 13027553130AED05009C4AD3 /* PBXTextBookmark */;
+			13027554130AED05009C4AD3 /* PBXTextBookmark */ = 13027554130AED05009C4AD3 /* PBXTextBookmark */;
+			13027579130AF516009C4AD3 /* PBXTextBookmark */ = 13027579130AF516009C4AD3 /* PBXTextBookmark */;
+			1302757A130AF516009C4AD3 /* PBXTextBookmark */ = 1302757A130AF516009C4AD3 /* PBXTextBookmark */;
+			13027593130AF788009C4AD3 /* PBXTextBookmark */ = 13027593130AF788009C4AD3 /* PBXTextBookmark */;
+			13027594130AF788009C4AD3 /* PBXTextBookmark */ = 13027594130AF788009C4AD3 /* PBXTextBookmark */;
+			131D5FF412F18573009CE8F1 /* PBXTextBookmark */ = 131D5FF412F18573009CE8F1 /* PBXTextBookmark */;
+			1347949E13100AE3008181C3 /* PlistBookmark */ = 1347949E13100AE3008181C3 /* PlistBookmark */;
+			1347949F13100AE3008181C3 /* PBXTextBookmark */ = 1347949F13100AE3008181C3 /* PBXTextBookmark */;
+			134794A5131010BE008181C3 /* PBXTextBookmark */ = 134794A5131010BE008181C3 /* PBXTextBookmark */;
+			1352930A13071AB200E69BF5 /* PBXTextBookmark */ = 1352930A13071AB200E69BF5 /* PBXTextBookmark */;
+			1366691712E3F501006ABBE2 /* PBXTextBookmark */ = 1366691712E3F501006ABBE2 /* PBXTextBookmark */;
+			136DB5BC12E806860060C3F0 /* PBXTextBookmark */ = 136DB5BC12E806860060C3F0 /* PBXTextBookmark */;
+			1370E21413074E0600CDE77C /* PBXTextBookmark */ = 1370E21413074E0600CDE77C /* PBXTextBookmark */;
+			1370E21513074E0600CDE77C /* PBXTextBookmark */ = 1370E21513074E0600CDE77C /* PBXTextBookmark */;
+			1370E2261307525F00CDE77C /* PBXTextBookmark */ = 1370E2261307525F00CDE77C /* PBXTextBookmark */;
+			1370E2271307525F00CDE77C /* PBXTextBookmark */ = 1370E2271307525F00CDE77C /* PBXTextBookmark */;
+			1370E22A1307525F00CDE77C /* PBXTextBookmark */ = 1370E22A1307525F00CDE77C /* PBXTextBookmark */;
+			1370E2381307527C00CDE77C /* PBXTextBookmark */ = 1370E2381307527C00CDE77C /* PBXTextBookmark */;
+			1370E26A1307548C00CDE77C /* PBXTextBookmark */ = 1370E26A1307548C00CDE77C /* PBXTextBookmark */;
+			1370E26B1307548C00CDE77C /* PBXTextBookmark */ = 1370E26B1307548C00CDE77C /* PBXTextBookmark */;
+			1377AE3512F1EC7C00387C20 /* PBXTextBookmark */ = 1377AE3512F1EC7C00387C20 /* PBXTextBookmark */;
+			137BC71912E7180800101320 /* PBXTextBookmark */ = 137BC71912E7180800101320 /* PBXTextBookmark */;
+			137F7CB513075D6600CB6099 /* PBXTextBookmark */ = 137F7CB513075D6600CB6099 /* PBXTextBookmark */;
+			137F7CB613075D6600CB6099 /* PBXTextBookmark */ = 137F7CB613075D6600CB6099 /* PBXTextBookmark */;
+			1391DEA712ED5B530050780A /* PBXTextBookmark */ = 1391DEA712ED5B530050780A /* PBXTextBookmark */;
+			13C312D212E7BABC0098D9FB /* PBXTextBookmark */ = 13C312D212E7BABC0098D9FB /* PBXTextBookmark */;
+			13C70C1E12E3DCBD00B8E091 /* PBXTextBookmark */ = 13C70C1E12E3DCBD00B8E091 /* PBXTextBookmark */;
+			13C7DEF313081D9E00D2CCCA /* PBXTextBookmark */ = 13C7DEF313081D9E00D2CCCA /* PBXTextBookmark */;
+			13C7DEF413081D9E00D2CCCA /* PBXTextBookmark */ = 13C7DEF413081D9E00D2CCCA /* PBXTextBookmark */;
+			13C7DEF513081D9E00D2CCCA /* PBXTextBookmark */ = 13C7DEF513081D9E00D2CCCA /* PBXTextBookmark */;
+			13C7DEF613081D9E00D2CCCA /* PBXTextBookmark */ = 13C7DEF613081D9E00D2CCCA /* PBXTextBookmark */;
+			13C7DEF713081D9E00D2CCCA /* PBXTextBookmark */ = 13C7DEF713081D9E00D2CCCA /* PBXTextBookmark */;
+			13C7DF2D13081F6100D2CCCA /* PBXTextBookmark */ = 13C7DF2D13081F6100D2CCCA /* PBXTextBookmark */;
+			13C7DF73130823A200D2CCCA /* PBXBookmark */ = 13C7DF73130823A200D2CCCA /* PBXBookmark */;
+			13ECF5EB12F9664300DE1F7C /* PBXTextBookmark */ = 13ECF5EB12F9664300DE1F7C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1328E4A312E260F900E2E0AC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1015, 397}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRange = "{0, 255}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Boot2EFI */ = {
+		activeExec = 0;
+		executables = (
+			1328E49212E260F200E2E0AC /* Boot2EFI */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Boot2EFI-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 82}, {1408, 791}}";
+		};
+	};
+}

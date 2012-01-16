@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1313023012E3C8D900200419 /* DeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313022F12E3C8D900200419 /* DeviceInformation.m */; };
+		1328E4EE12E26C5D00E2E0AC /* EFIDiskUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328E4ED12E26C5D00E2E0AC /* EFIDiskUtil.m */; };
+		1328E5F012E273C400E2E0AC /* EFIInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328E5EF12E273C400E2E0AC /* EFIInstaller.m */; };
+		1328E70612E27D2300E2E0AC /* RunAsAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328E70512E27D2300E2E0AC /* RunAsAdmin.m */; };
+		1349C0D9132D2AB3000A99C8 /* InstallationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349C0D7132D2AB2000A99C8 /* InstallationViewController.m */; };
+		1349C0DA132D2AB3000A99C8 /* InstallationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1349C0D8132D2AB2000A99C8 /* InstallationViewController.xib */; };
+		1352930513071A7D00E69BF5 /* EFIDropBootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1352930213071A7D00E69BF5 /* EFIDropBootView.m */; };
+		1352930613071A7D00E69BF5 /* EFIDropKextsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1352930413071A7D00E69BF5 /* EFIDropKextsView.m */; };
+		135293BB1307267900E69BF5 /* EFIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 135293BA1307267900E69BF5 /* EFIViewController.xib */; };
+		135327D812E7F8EF00F89DD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135327D712E7F8EF00F89DD4 /* Security.framework */; };
+		1366690312E3F177006ABBE2 /* EFIInstallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1366690212E3F177006ABBE2 /* EFIInstallInfo.m */; };
+		1370E21A13074E1500CDE77C /* ExtraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1370E21913074E1500CDE77C /* ExtraView.xib */; };
+		1370E22013074FCE00CDE77C /* EFIDropExtraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1370E21F13074FCE00CDE77C /* EFIDropExtraView.m */; };
+		1395B04E130739C1005124B2 /* EFIOptionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395B04D130739C1005124B2 /* EFIOptionalViewController.m */; };
+		1395B05213073A32005124B2 /* EFIExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395B05113073A32005124B2 /* EFIExtraViewController.m */; };
+		1395B05613073C47005124B2 /* EFIInstallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395B05513073C47005124B2 /* EFIInstallMethodViewController.m */; };
+		1395B05913073C9C005124B2 /* OptionalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1395B05813073C9C005124B2 /* OptionalView.xib */; };
+		1399BFAD12E7EC140056A744 /* mb.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1399BFAC12E7EC140056A744 /* mb.sh */; };
+		13C5D4CF12EED11900882859 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 13C5D4CE12EED11900882859 /* logo.icns */; };
+		13D8EF8F12E32A9E00503CE0 /* EFIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */; };
+		13EF593D12E62064003C8403 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 13EF593812E62064003C8403 /* images */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* Boot2EFIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Boot2EFIAppDelegate.m */; };
+		449D927314B34A500024CAE7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 449D927214B34A500024CAE7 /* Credits.rtf */; };
+		44EF79D314B0BE140079BE34 /* EBTerminalCommander.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EF79D214B0BE140079BE34 /* EBTerminalCommander.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1313022E12E3C8D900200419 /* DeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInformation.h; sourceTree = "<group>"; };
+		1313022F12E3C8D900200419 /* DeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInformation.m; sourceTree = "<group>"; };
+		1328E4EC12E26C5D00E2E0AC /* EFIDiskUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIDiskUtil.h; sourceTree = "<group>"; };
+		1328E4ED12E26C5D00E2E0AC /* EFIDiskUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIDiskUtil.m; sourceTree = "<group>"; };
+		1328E5EE12E273C400E2E0AC /* EFIInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIInstaller.h; sourceTree = "<group>"; };
+		1328E5EF12E273C400E2E0AC /* EFIInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIInstaller.m; sourceTree = "<group>"; };
+		1328E70412E27D2300E2E0AC /* RunAsAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunAsAdmin.h; sourceTree = "<group>"; };
+		1328E70512E27D2300E2E0AC /* RunAsAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunAsAdmin.m; sourceTree = "<group>"; };
+		1349C0D6132D2AB2000A99C8 /* InstallationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallationViewController.h; sourceTree = "<group>"; };
+		1349C0D7132D2AB2000A99C8 /* InstallationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallationViewController.m; sourceTree = "<group>"; };
+		1349C0D8132D2AB2000A99C8 /* InstallationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstallationViewController.xib; sourceTree = "<group>"; };
+		1352930213071A7D00E69BF5 /* EFIDropBootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIDropBootView.m; sourceTree = "<group>"; };
+		1352930313071A7D00E69BF5 /* EFIDropKextsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIDropKextsView.h; sourceTree = "<group>"; };
+		1352930413071A7D00E69BF5 /* EFIDropKextsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIDropKextsView.m; sourceTree = "<group>"; };
+		135293BA1307267900E69BF5 /* EFIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EFIViewController.xib; sourceTree = "<group>"; };
+		135327D712E7F8EF00F89DD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1366690112E3F177006ABBE2 /* EFIInstallInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIInstallInfo.h; sourceTree = "<group>"; };
+		1366690212E3F177006ABBE2 /* EFIInstallInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIInstallInfo.m; sourceTree = "<group>"; };
+		1370E21913074E1500CDE77C /* ExtraView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtraView.xib; sourceTree = "<group>"; };
+		1370E21E13074FCE00CDE77C /* EFIDropExtraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIDropExtraView.h; sourceTree = "<group>"; };
+		1370E21F13074FCE00CDE77C /* EFIDropExtraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIDropExtraView.m; sourceTree = "<group>"; };
+		1395B04C130739C1005124B2 /* EFIOptionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIOptionalViewController.h; sourceTree = "<group>"; };
+		1395B04D130739C1005124B2 /* EFIOptionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIOptionalViewController.m; sourceTree = "<group>"; };
+		1395B05013073A32005124B2 /* EFIExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIExtraViewController.h; sourceTree = "<group>"; };
+		1395B05113073A32005124B2 /* EFIExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIExtraViewController.m; sourceTree = "<group>"; };
+		1395B05413073C47005124B2 /* EFIInstallMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIInstallMethodViewController.h; sourceTree = "<group>"; };
+		1395B05513073C47005124B2 /* EFIInstallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIInstallMethodViewController.m; sourceTree = "<group>"; };
+		1395B05813073C9C005124B2 /* OptionalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionalView.xib; sourceTree = "<group>"; };
+		1399BFAC12E7EC140056A744 /* mb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mb.sh; sourceTree = "<group>"; };
+		13C5D4CE12EED11900882859 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = logo.icns; sourceTree = "<group>"; };
+		13D8EF8D12E32A9E00503CE0 /* EFIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIViewController.h; sourceTree = "<group>"; };
+		13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFIViewController.m; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		13EF593812E62064003C8403 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* Boot2EFIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boot2EFIAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* Boot2EFIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boot2EFIAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Boot2EFI_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boot2EFI_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4423E283149D87DE008628F7 /* EFIDropBootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFIDropBootView.h; sourceTree = "<group>"; };
+		449D927214B34A500024CAE7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		44EF79D114B0BE140079BE34 /* EBTerminalCommander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTerminalCommander.h; sourceTree = "<group>"; };
+		44EF79D214B0BE140079BE34 /* EBTerminalCommander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTerminalCommander.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Boot2EFI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Boot2EFI-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Boot2EFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boot2EFI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				135327D812E7F8EF00F89DD4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1395B04B13073939005124B2 /* Drop view */,
+				13D8EF8D12E32A9E00503CE0 /* EFIViewController.h */,
+				13D8EF8E12E32A9E00503CE0 /* EFIViewController.m */,
+				135293BA1307267900E69BF5 /* EFIViewController.xib */,
+				1366690112E3F177006ABBE2 /* EFIInstallInfo.h */,
+				1366690212E3F177006ABBE2 /* EFIInstallInfo.m */,
+				1313022E12E3C8D900200419 /* DeviceInformation.h */,
+				1313022F12E3C8D900200419 /* DeviceInformation.m */,
+				1328E4EC12E26C5D00E2E0AC /* EFIDiskUtil.h */,
+				1328E4ED12E26C5D00E2E0AC /* EFIDiskUtil.m */,
+				1328E5EE12E273C400E2E0AC /* EFIInstaller.h */,
+				1328E5EF12E273C400E2E0AC /* EFIInstaller.m */,
+				44EF79D114B0BE140079BE34 /* EBTerminalCommander.h */,
+				44EF79D214B0BE140079BE34 /* EBTerminalCommander.m */,
+				1328E70412E27D2300E2E0AC /* RunAsAdmin.h */,
+				1328E70512E27D2300E2E0AC /* RunAsAdmin.m */,
+				1395B05713073C52005124B2 /* Install method */,
+				1349C0D6132D2AB2000A99C8 /* InstallationViewController.h */,
+				1349C0D7132D2AB2000A99C8 /* InstallationViewController.m */,
+				1349C0D8132D2AB2000A99C8 /* InstallationViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135327D712E7F8EF00F89DD4 /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1395B04B13073939005124B2 /* Drop view */ = {
+			isa = PBXGroup;
+			children = (
+				1352930213071A7D00E69BF5 /* EFIDropBootView.m */,
+				4423E283149D87DE008628F7 /* EFIDropBootView.h */,
+				1352930313071A7D00E69BF5 /* EFIDropKextsView.h */,
+				1352930413071A7D00E69BF5 /* EFIDropKextsView.m */,
+				1370E21E13074FCE00CDE77C /* EFIDropExtraView.h */,
+				1370E21F13074FCE00CDE77C /* EFIDropExtraView.m */,
+			);
+			name = "Drop view";
+			sourceTree = "<group>";
+		};
+		1395B04F130739E2005124B2 /* Optional install */ = {
+			isa = PBXGroup;
+			children = (
+				1395B04C130739C1005124B2 /* EFIOptionalViewController.h */,
+				1395B04D130739C1005124B2 /* EFIOptionalViewController.m */,
+				1395B05813073C9C005124B2 /* OptionalView.xib */,
+			);
+			name = "Optional install";
+			sourceTree = "<group>";
+		};
+		1395B05313073A3D005124B2 /* Extra install */ = {
+			isa = PBXGroup;
+			children = (
+				1395B05013073A32005124B2 /* EFIExtraViewController.h */,
+				1395B05113073A32005124B2 /* EFIExtraViewController.m */,
+				1370E21913074E1500CDE77C /* ExtraView.xib */,
+			);
+			name = "Extra install";
+			sourceTree = "<group>";
+		};
+		1395B05713073C52005124B2 /* Install method */ = {
+			isa = PBXGroup;
+			children = (
+				1395B04F130739E2005124B2 /* Optional install */,
+				1395B05313073A3D005124B2 /* Extra install */,
+				1395B05413073C47005124B2 /* EFIInstallMethodViewController.h */,
+				1395B05513073C47005124B2 /* EFIInstallMethodViewController.m */,
+			);
+			name = "Install method";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Boot2EFI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Boot2EFI */ = {
+			isa = PBXGroup;
+			children = (
+				13C5D4CE12EED11900882859 /* logo.icns */,
+				1399BFAC12E7EC140056A744 /* mb.sh */,
+				13EF593812E62064003C8403 /* images */,
+				256AC3D80F4B6AC300CF3369 /* Boot2EFIAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* Boot2EFIAppDelegate.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Boot2EFI;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Boot2EFI_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Boot2EFI-Info.plist */,
+				449D927214B34A500024CAE7 /* Credits.rtf */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Boot2EFI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Boot2EFI" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boot2EFI;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Boot2EFI;
+			productReference = 8D1107320486CEB800E47090 /* Boot2EFI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Boot2EFI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Boot2EFI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Boot2EFI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				13EF593D12E62064003C8403 /* images in Resources */,
+				1399BFAD12E7EC140056A744 /* mb.sh in Resources */,
+				13C5D4CF12EED11900882859 /* logo.icns in Resources */,
+				135293BB1307267900E69BF5 /* EFIViewController.xib in Resources */,
+				1395B05913073C9C005124B2 /* OptionalView.xib in Resources */,
+				1370E21A13074E1500CDE77C /* ExtraView.xib in Resources */,
+				1349C0DA132D2AB3000A99C8 /* InstallationViewController.xib in Resources */,
+				449D927314B34A500024CAE7 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* Boot2EFIAppDelegate.m in Sources */,
+				1328E4EE12E26C5D00E2E0AC /* EFIDiskUtil.m in Sources */,
+				1328E5F012E273C400E2E0AC /* EFIInstaller.m in Sources */,
+				1328E70612E27D2300E2E0AC /* RunAsAdmin.m in Sources */,
+				13D8EF8F12E32A9E00503CE0 /* EFIViewController.m in Sources */,
+				1313023012E3C8D900200419 /* DeviceInformation.m in Sources */,
+				1366690312E3F177006ABBE2 /* EFIInstallInfo.m in Sources */,
+				1352930513071A7D00E69BF5 /* EFIDropBootView.m in Sources */,
+				1352930613071A7D00E69BF5 /* EFIDropKextsView.m in Sources */,
+				1395B04E130739C1005124B2 /* EFIOptionalViewController.m in Sources */,
+				1395B05213073A32005124B2 /* EFIExtraViewController.m in Sources */,
+				1395B05613073C47005124B2 /* EFIInstallMethodViewController.m in Sources */,
+				1370E22013074FCE00CDE77C /* EFIDropExtraView.m in Sources */,
+				1349C0D9132D2AB3000A99C8 /* InstallationViewController.m in Sources */,
+				44EF79D314B0BE140079BE34 /* EBTerminalCommander.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Boot2EFI_Prefix.pch;
+				INFOPLIST_FILE = "Boot2EFI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Boot2EFI;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Boot2EFI_Prefix.pch;
+				INFOPLIST_FILE = "Boot2EFI-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Boot2EFI;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Boot2EFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Boot2EFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
